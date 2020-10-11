@@ -1,6 +1,6 @@
 
 install:
-	pip3 install -r requirements.txt
+	pip install -r requirements.txt
 
 build:
 	python manage.py migrate
